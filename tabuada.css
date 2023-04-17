@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Jeremaia;
+    src: url(Nice\ Sugar.otf);
+}
+
+body {
+    transition: 0.7s;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Jeremaia;
+}
+
+.container {
+    box-shadow: 1px 1px 25px rgb(143, 143, 143);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/fotos-gratis/quadro-vazio_53876-31358.jpg?w=740&t=st=1681740046~exp=1681740646~hmac=c8791f0d8b1f14671469771115308818e2dd568e12e8080e1b58b16ddee2c7ef);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digite {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.digito {
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: text;
+    background-color: rgba(175, 175, 175, 0.224);
+    border-radius: 5px;
+    border: none;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.gerar {
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+}
+
+.limpar {
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+}
+
+.tabelagerada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: rgb(236, 236, 236);
+}
+
+
+i {
+    cursor: pointer;
+}
+
+
+.dark-mode {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    transition: 0.7s;
+  }
+
+  .dark-mode .container {
+    background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg?w=996&t=st=1681742003~exp=1681742603~hmac=9f50e4384fdce495f328d6ee78d2e9cc89f5742aa1107e1f99f2ee9366a82305);
+  }
+  
+

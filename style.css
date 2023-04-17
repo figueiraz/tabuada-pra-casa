@@ -1,0 +1,66 @@
+
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+
+main {
+    padding: 25px;
+}
+
+button {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+button i {
+    font-size: 40px;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.dark-mode {
+    background-color: rgb(32, 9, 54);
+    color: aliceblue;
+}
+
+/* .dark-mode-header {
+    background-color: rgb(21, 21, 21);
+    color: aliceblue;
+} */
+
+.dark-mode header {
+    background-color: red;
+}
+
+.dark-mode h1 {
+    color: gold;
+}
+.dark-mode p {
+    color: lightseagreen;
+}
+
+.dark-mode header button i {
+    color: aliceblue;
+}

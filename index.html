@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura While</title>
+</head>
+<body>
+    
+<h1>Números de 1 a 10</h1>
+
+<ul id="numeros">
+
+</ul>
+
+<script>
+    var i = 1
+    while (i <= 10) {
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(`Aluno ${i}`));
+        document.getElementById('numeros').appendChild(li);
+        i++
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura While 2</title>
+</head>
+
+<body>
+    <h1>Contador</h1>
+
+    <p>Clique abaixo para iniciar o contador</p>
+
+    <button onclick="contar()">Iniciar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function contar() {
+            var contador = 100
+            var resultado = ""
+
+            while (contador >= 1){
+                resultado += contador + " ";
+                contador--
+            }
+
+            document.getElementById('resultado').innerHTML = resultado;
+        }
+    </script>
+
+</body>
+
+</html>
